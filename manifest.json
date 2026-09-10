@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "joramser.camera-test",
+  "name": "Camera Test",
+  "version": "1.0.0",
+  "author": "Jorge Ramirez Serrato",
+  "license": "MIT",
+  "description": "Preview and verify any connected camera directly from the Omarchy bar.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Camera Test",
+    "description": "Open a live camera preview and verify that frames are arriving",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "preferredCamera": "",
+      "mirrorPreview": true
+    },
+    "schema": [
+      {
+        "key": "preferredCamera",
+        "type": "string",
+        "label": "Preferred camera",
+        "description": "Part of the camera name to select when the panel opens"
+      },
+      {
+        "key": "mirrorPreview",
+        "type": "boolean",
+        "label": "Mirror preview"
+      }
+    ]
+  }
+}

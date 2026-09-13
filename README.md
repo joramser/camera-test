@@ -17,6 +17,8 @@ Camera Test is an Omarchy Shell bar widget for previewing and verifying connecte
 omarchy plugin add https://github.com/joramser/camera-test.git --enable --yes
 ```
 
+View this plugin in the [Omarchy plugin directory](https://plugins.omarchy.org/plugin.html?id=joramser.camera-test).
+
 The widget defaults to the right section of the bar. Click the camera icon to open or close the preview.
 
 ## Remove
